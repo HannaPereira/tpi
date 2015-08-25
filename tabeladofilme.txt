@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title> Aula de tabela </title>
+		
+	</head>
+	<body>
+		<table border=1 bgcolor='red'><!-- inserção de tabela/ tr = table row -->
+		
+		<tr><td rowspan=2 bgcolor='blue'>  <font color="yellow"><center> TITULO</font></td> <td> aventura </td>  </tr>
+		
+			
+		<tr> <td>PI</td></tr> 
+		<tr><td>Avatar</td> <td rowspan=2> R$ 59,00 </td></tr>
+		<tr><td>Harry Potter </td></tr>
+		<tr><td>As aventuras de PI <br /> <img src="pi.jpg" alt ="As aventuras de PI"> </td> <td> R$ 79,90</td></tr>
+		<tr><td>As Cronicas de Narnia </td> <td rowspan=2> 100,00 </td> </tr>
+		<tr><td> Joao e Maria </td> </tr>		
+	
+		</table><!-- fim da tabela -->

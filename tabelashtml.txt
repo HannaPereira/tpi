@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title> Aula de Tabela </title>
+		
+	</head>
+	<body>
+		<table border=1 bgcolor='yellow'><!-- inserчуo de tabela/ tr = table row -->
+		
+		<tr>
+		<td>1к Coluna - 1к Linha</td> <td bgcolor='blue'>2к Coluna - 1к Linha</td>
+		</tr> 
+		
+		<tr>
+		<td>1к Coluna - 2к Linha </td><td> 2к Coluna - 2к Linha</td>
+		</tr> 
+		
+	
+		</table><!-- fim da tabela -->
+	<br />
+	
+	<table border=10 bgcolor='yellow'>
+	<tr><td colspan=2>1к + 2к coluna - 1к linha</td></tr>
+	
+	<tr><td>1к coluna - 2к Linha </td>
+	<td>2к coluna - 2к Linha</td></tr>
+	</table>
+	
+	<br />
+	
+	<table border=8 bgcolor='magenta'>
+	<tr>
+	<td rowspan=2>1к coluna - 1к linha + 2к linha</td>
+	<td>2к coluna - 1к linha</tr><tr><td>2к coluna - 2к linha</td></tr></td>
+	
+	</table>
+	
+	
+	</body>
+</html>	
